@@ -5,7 +5,7 @@ function dayRate (ratePerHour) {
 }
 
 const amountPerDay = dayRate(ratePerHour);
-//console.log("Rate per day is:", amountPerDay);
+console.log("Rate per day is:", amountPerDay);
 
 
 
@@ -16,7 +16,7 @@ function daysInBudget (fixedBudget, amountPerDay) {
 }
 
 const daysOfWork = daysInBudget(fixedBudget, amountPerDay);
-//console.log("Number of days the budget will cover is:", Math.floor(daysOfWork));
+console.log("Number of days the budget will cover is:", Math.floor(daysOfWork));
 
 
 
@@ -26,7 +26,7 @@ function percentage (percent, number) {
 
 const fortyTwoPercent = percentage(42, 156640);
 
-//console.log("42 percent of 156640 is:", fortyTwoPercent);
+console.log("42 percent of 156640 is:", fortyTwoPercent);
 
 
 const numDays = 230;
